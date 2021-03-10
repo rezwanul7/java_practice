@@ -1,4 +1,4 @@
-package com.company.collections;
+package com.company.collections.data;
 
 public class Customer implements Comparable<Customer> {
     private String name;

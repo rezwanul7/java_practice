@@ -1,5 +1,7 @@
 package com.company.collections;
 
+import com.company.collections.data.GenericList;
+
 public class IterableTest {
     public static void main(String[] args) {
         GenericList<Integer> list = new GenericList<>();

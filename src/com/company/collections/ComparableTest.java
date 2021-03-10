@@ -1,5 +1,7 @@
 package com.company.collections;
 
+import com.company.collections.data.Customer;
+
 import java.util.*;
 
 public class ComparableTest {

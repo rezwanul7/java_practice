@@ -1,5 +1,8 @@
 package com.company.collections;
 
+import com.company.collections.data.Customer;
+import com.company.collections.utility.EmailComparator;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;

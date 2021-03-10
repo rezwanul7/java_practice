@@ -1,4 +1,6 @@
-package com.company.collections;
+package com.company.collections.utility;
+
+import com.company.collections.data.Customer;
 
 import java.util.Comparator;
 
