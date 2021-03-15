@@ -9,11 +9,23 @@ public class Movie {
         this.likes = likes;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public String getTitle() {
         return title;
     }
 
     public int getLikes() {
         return likes;
+    }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "title='" + title + '\'' +
+                ", likes=" + likes +
+                '}';
     }
 }
