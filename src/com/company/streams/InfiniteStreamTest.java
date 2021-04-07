@@ -2,7 +2,7 @@ package com.company.streams;
 
 import java.util.stream.Stream;
 
-public class InfiniteStream {
+public class InfiniteStreamTest {
     public static void main(String[] args) {
         Stream<Double> infiniteStream = Stream.generate(Math::random);
         infiniteStream
