@@ -1,27 +1,27 @@
-package com.rezwanul7.design_patterns.creational.builder.problem;
+package com.rezwanul7.design_patterns.creational.builder.launch_order.problem;
 
-public class LanuchOrderTelescoping {
+public class LunchOrderTelescoping {
     private String bread;
     private String condiments;
     private String dressing;
     private String meat;
 
-    public LanuchOrderTelescoping(String bread) {
+    public LunchOrderTelescoping(String bread) {
 
     }
 
-    public LanuchOrderTelescoping(String bread, String condiments, String dressing, String meat) {
+    public LunchOrderTelescoping(String bread, String condiments, String dressing, String meat) {
         this(bread,condiments);
         this.dressing = dressing;
         this.meat = meat;
     }
 
-    public LanuchOrderTelescoping(String bread, String condiments) {
+    public LunchOrderTelescoping(String bread, String condiments) {
         this(bread);
         this.condiments = condiments;
     }
 
-    public LanuchOrderTelescoping(String bread, String condiments, String dressing) {
+    public LunchOrderTelescoping(String bread, String condiments, String dressing) {
         this(bread,condiments);
         this.dressing = dressing;
     }
