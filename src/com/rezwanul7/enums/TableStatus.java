@@ -3,13 +3,10 @@ package com.rezwanul7.enums;
 import java.util.Arrays;
 
 public enum TableStatus {
-    RESERVED("blue", "http://abc"),
-    //    READY("blue"),
-//    PROCESSING("a"),
-//    OCCUPIED("a"),
-//    SERVING("s"),
-    BILL_PAID("green", "http://xyz"),
-    UNKNOWN("red", "http://unknown");
+    RESERVED("reserved", "blue"),
+    READY("ready","yellow"),
+    BILL_PAID("paid", "green"),
+    UNKNOWN("not found", "red");
 
     private String label;
     private String color;

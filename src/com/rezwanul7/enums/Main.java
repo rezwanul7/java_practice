@@ -8,6 +8,6 @@ public class Main {
         //reverse lookup
         String status = "BILL";
         TableStatus tableStatus = TableStatus.getEnum(status);
-        System.out.println(tableStatus.getLabel());
+        System.out.println("Status: " + tableStatus.getLabel());
     }
 }
