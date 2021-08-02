@@ -1,13 +1,13 @@
-package com.rezwanul7.design_patterns.creational.builder.problem;
+package com.rezwanul7.design_patterns.creational.builder.launch_order.problem;
 
-public class LaunchOrderBean {
+public class LunchOrderBean {
     private String bread;
     private String condiments;
     private String dressing;
     private String meat;
 
     //Empty public constructor(Bean)
-    public LaunchOrderBean(){
+    public LunchOrderBean(){
 
     }
 
