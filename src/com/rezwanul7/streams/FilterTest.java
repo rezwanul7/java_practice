@@ -14,7 +14,6 @@ public class FilterTest {
                 new Movie("Moon Seen", 18)
         );
 
-
         Predicate<Movie> popularMovies = movie -> movie.getLikes() > 12;
         Predicate<Movie> bigTitleMovies = movie -> movie.getTitle().length() > 5;
 

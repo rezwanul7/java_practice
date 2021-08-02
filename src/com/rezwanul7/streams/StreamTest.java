@@ -10,8 +10,19 @@ public class StreamTest {
                 new Movie("c", 16),
                 new Movie("d", 18)
         );
+
+        //Intermediate operations
+
+        //movies having likes > 15
+        Stream<Movie> popularMovies = movieStream.
+                filter(movie -> movie.getLikes() > 15);
+
+
+        //Terminal Operations
         movieStream.forEach(movie -> {
             System.out.println("Title : " + movie.getTitle());
         });
+
+
     }
 }
