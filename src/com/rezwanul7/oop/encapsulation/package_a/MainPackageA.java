@@ -9,6 +9,8 @@ public class MainPackageA {
 //        animal.accessProtected();
 //        animal.accessPackagePrivate();
 //
+        int primeNumbers = Animal.PRIME_NUMBERS;
+
         Animal extendedAnimal = new ExtendedAnimal(13);
 //        extendedAnimal.accessPublic();
 //        extendedAnimal.accessPackagePrivate();

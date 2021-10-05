@@ -21,4 +21,9 @@ public abstract class ExtendedAbstractAnimal extends AbstractAnimal{
     public void execute(){
         k();
     }
+
+    @Override
+    public void walk() {
+
+    }
 }
